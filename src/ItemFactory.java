@@ -1,4 +1,4 @@
-public class ItemFactory {
+public abstract class ItemFactory {
     public abstract Item createItem();
 
     public void useItem() {
